@@ -19,7 +19,6 @@
 doc/
 *.swp
 *~
-*.lock
 
 .project
 .projectile
