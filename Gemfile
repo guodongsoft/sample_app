@@ -2,11 +2,12 @@ source 'https://rubygems.org'
 ruby '2.3.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0'
+gem 'rails', '4.0.6'
+
+gem 'zip', '2.0.2'
 
 # Use SCSS for stylesheets
-#gem 'sass-rails', '~> 4.0.0'
-gem 'sass-rails', '4.0.0'
+gem 'sass-rails', '~> 4.0.0'
 
 # Use Uglifier as compressor for JavaScript assets
 #gem 'uglifier', '>= 1.3.0'
@@ -37,12 +38,13 @@ end
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3', '~> 1.3.7'
-  gem 'rspec-rails', '2.13.1'
+  gem 'rspec-rails', '~> 2.99.0'
 end
 
 group :test do
   gem 'selenium-webdriver', '2.0.0'
   gem 'capybara', '2.1.0'
+  gem 'test-unit', '3.2.8'
 end
 
 group :production do

@@ -19,6 +19,8 @@
 doc/
 *.swp
 *~
+*.lock
+
 .project
 .projectile
 .DS_Store
